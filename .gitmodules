@@ -1,3 +1,6 @@
 [submodule "catalogg"]
 	path = catalogg
 	url = https://github.com/tominflux/catalogg
+[submodule "userlogg"]
+	path = userlogg
+	url = https://github.com/tominflux/userlogg
