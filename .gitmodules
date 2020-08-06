@@ -1,0 +1,3 @@
+[submodule "catalogg"]
+	path = catalogg
+	url = https://github.com/tominflux/catalogg
