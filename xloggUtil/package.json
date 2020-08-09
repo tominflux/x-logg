@@ -1,7 +1,7 @@
 {
-  "name": "@x-logg/mongoops",
-  "version": "0.1.2",
-  "description": "Commonly used mongodb operations.",
+  "name": "@x-logg/util",
+  "version": "0.1.0",
+  "description": "",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha"
@@ -15,8 +15,5 @@
   "bugs": {
     "url": "https://github.com/tominflux/x-logg/issues"
   },
-  "homepage": "https://github.com/tominflux/x-logg#readme",
-  "dependencies": {
-    "mongodb": "^3.6.0"
-  }
+  "homepage": "https://github.com/tominflux/x-logg#readme"
 }

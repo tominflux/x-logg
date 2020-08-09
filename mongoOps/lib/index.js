@@ -10,7 +10,7 @@ const {
 } = require("./operations");
 
 
-module.exports = [
+module.exports = {
     connect,
     getMongoCollections,
     createMongoCollection,
@@ -19,4 +19,4 @@ module.exports = [
     findInCollection,
     updateInCollection,
     deleteFromCollection
-]
+}
