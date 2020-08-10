@@ -46,7 +46,7 @@ const unlockItem = (
 ) => {
     //Ensure locked item archetype identifier matches
     //given archetype.
-    if (lockedItem.archetypeId !== archetype.identifier) {
+    if (lockedItem.archetypeId !== archetype.identifier.data) {
         throw new Error(
             `Locked item's archetype ` +
             `"${lockedItem.archetypeId}" ` +
