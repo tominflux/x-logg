@@ -4,3 +4,6 @@
 [submodule "userlogg"]
 	path = userlogg
 	url = https://github.com/tominflux/userlogg
+[submodule "actionlogg"]
+	path = actionlogg
+	url = https://github.com/tominflux/actionlogg
