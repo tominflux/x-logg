@@ -7,3 +7,6 @@
 [submodule "actionlogg"]
 	path = actionlogg
 	url = https://github.com/tominflux/actionlogg
+[submodule "dashboard"]
+	path = dashboard
+	url = https://github.com/tominflux/x-logg-dashboard
