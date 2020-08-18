@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/tominflux/x-logg#readme",
   "dependencies": {
-    "@x-logg/util": "^0.1.1",
+    "@x-logg/util": "^0.1.4",
     "aarketype": "^0.1.6",
     "jsonwebtoken": "^8.5.1"
   },

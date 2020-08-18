@@ -1,6 +1,6 @@
 {
   "name": "@x-logg/util",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tominflux/x-logg/issues"
   },
-  "homepage": "https://github.com/tominflux/x-logg#readme"
+  "homepage": "https://github.com/tominflux/x-logg#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0"
+  }
 }
