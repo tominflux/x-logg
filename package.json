@@ -1,6 +1,6 @@
 {
   "name": "x-logg",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Interface for orchestrating components of the x-logg suite.",
   "main": "lib/api/index.js",
   "directories": {
@@ -21,14 +21,14 @@
   "homepage": "https://github.com/tominflux/x-logg#readme",
   "dependencies": {
     "@x-logg/util": "^0.1.4",
-    "aarketype": "^0.1.7",
+    "aarketype": "^0.1.8",
     "jsonwebtoken": "^8.5.1"
   },
   "devDependencies": {
     "@x-logg/actionlogg-express-rest": "^0.1.0",
     "@x-logg/actionlogg-mongo": "^0.1.0",
-    "@x-logg/catalogg-express-rest": "^0.1.0",
-    "@x-logg/catalogg-mongo": "^0.1.0",
+    "@x-logg/catalogg-express-rest": "^0.1.1",
+    "@x-logg/catalogg-mongo": "^0.1.6",
     "@x-logg/userlogg-auth": "^0.1.9",
     "@x-logg/userlogg-express-rest": "^0.1.0",
     "@x-logg/userlogg-mongo": "^0.1.1",
