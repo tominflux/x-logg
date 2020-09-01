@@ -21,21 +21,21 @@
   },
   "homepage": "https://github.com/tominflux/x-logg#readme",
   "dependencies": {
+    "@x-logg/actionlogg-express-rest": "^0.1.0",
+    "@x-logg/actionlogg-mongo": "^0.1.0",
+    "@x-logg/catalogg-express-rest": "^0.1.1",
+    "@x-logg/catalogg-mongo": "^0.1.6",
+    "@x-logg/userlogg-auth": "^0.2.7",
+    "@x-logg/userlogg-express-rest": "^0.1.0",
+    "@x-logg/userlogg-mongo": "^0.1.1",
     "@x-logg/util": "^0.1.4",
     "aarketype": "^0.1.8",
     "actionlogg": "file:actionlogg",
     "catalogg": "file:catalogg",
     "cors": "^2.8.5",
-    "jsonwebtoken": "^8.5.1",
-    "userlogg": "file:userlogg",
-    "@x-logg/actionlogg-express-rest": "^0.1.0",
-    "@x-logg/actionlogg-mongo": "^0.1.0",
-    "@x-logg/catalogg-express-rest": "^0.1.1",
-    "@x-logg/catalogg-mongo": "^0.1.6",
-    "@x-logg/userlogg-auth": "^0.2.6",
-    "@x-logg/userlogg-express-rest": "^0.1.0",
-    "@x-logg/userlogg-mongo": "^0.1.1",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "userlogg": "file:userlogg"
   }
 }
