@@ -7,6 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
+    "start": "node app",
     "test": "mocha"
   },
   "repository": {
