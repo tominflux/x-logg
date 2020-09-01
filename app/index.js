@@ -8,6 +8,7 @@ console.log("Loading dependencies...")
 
 //
 const express = require('express')
+const cors = require("cors")
 //
 const genUserloggMongoApi = require("@x-logg/userlogg-mongo")
 const genUserloggApi = require("userlogg")
@@ -43,7 +44,9 @@ const userloggApi = genUserloggApi(userloggMongoApi)
 
 //Step 2. Configure Userlogg Auth Middleware
 const userloggAuth = genUserloggAuthMiddleware(
-    userloggApi, process.env.JWT_KEY
+    userloggApi, 
+    process.env.JWT_KEY,
+    process.env.SIGNED_COOKIE_SECRET
 )
 
 //Step 3. Configure Userlogg REST API + secure
@@ -79,7 +82,10 @@ console.log("Preparing routes...")
 
 //Create server.
 const app = express()
-const port = 3000
+const port = 8000
+
+//Third-party Middlewares
+app.use(cors())
 
 //Middlewares
 app.use("/", userloggAuth.api)
