@@ -82,7 +82,7 @@ console.log("Preparing routes...")
 
 //Create server.
 const app = express()
-const port = 8000
+const port = parseInt(process.env.PORT) || 8000
 
 //Third-party Middlewares
 app.use(cors())
