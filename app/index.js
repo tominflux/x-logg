@@ -87,10 +87,10 @@ const port = parseInt(process.env.PORT) || 8000
 //Third-party Middlewares
 app.use(cors())
 
-//Middlewares
+//Auth API
 app.use("/", userloggAuth.api)
 
-//REST Modules
+//REST Module APIs
 app.use("/api", userloggRestApi)
 app.use("/api", cataloggRestApi)
 app.use("/api", actionloggRestApi)
