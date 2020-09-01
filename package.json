@@ -23,8 +23,11 @@
   "dependencies": {
     "@x-logg/util": "^0.1.4",
     "aarketype": "^0.1.8",
+    "actionlogg": "file:actionlogg",
+    "catalogg": "file:catalogg",
     "cors": "^2.8.5",
-    "jsonwebtoken": "^8.5.1"
+    "jsonwebtoken": "^8.5.1",
+    "userlogg": "file:userlogg"
   },
   "devDependencies": {
     "@x-logg/actionlogg-express-rest": "^0.1.0",
@@ -34,10 +37,7 @@
     "@x-logg/userlogg-auth": "^0.2.6",
     "@x-logg/userlogg-express-rest": "^0.1.0",
     "@x-logg/userlogg-mongo": "^0.1.1",
-    "actionlogg": "file:actionlogg",
-    "catalogg": "file:catalogg",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "userlogg": "file:userlogg"
+    "express": "^4.17.1"
   }
 }
