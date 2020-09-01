@@ -27,9 +27,7 @@
     "catalogg": "file:catalogg",
     "cors": "^2.8.5",
     "jsonwebtoken": "^8.5.1",
-    "userlogg": "file:userlogg"
-  },
-  "devDependencies": {
+    "userlogg": "file:userlogg",
     "@x-logg/actionlogg-express-rest": "^0.1.0",
     "@x-logg/actionlogg-mongo": "^0.1.0",
     "@x-logg/catalogg-express-rest": "^0.1.1",
