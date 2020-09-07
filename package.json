@@ -25,7 +25,7 @@
     "@x-logg/actionlogg-mongo": "^0.1.0",
     "@x-logg/catalogg-express-rest": "^0.1.1",
     "@x-logg/catalogg-mongo": "^0.1.6",
-    "@x-logg/userlogg-auth": "^0.2.9",
+    "@x-logg/userlogg-auth": "^0.2.10",
     "@x-logg/userlogg-express-rest": "^0.1.0",
     "@x-logg/userlogg-mongo": "^0.1.1",
     "@x-logg/util": "^0.1.4",
