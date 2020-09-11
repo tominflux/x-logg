@@ -148,7 +148,7 @@ const deleteFromCollection = (
 
 const countInCollection = (
     database, collectionName, query={}
-) => Promise(
+) => new Promise(
     (resolve, reject) => (
         database
         .collection(collectionName)
