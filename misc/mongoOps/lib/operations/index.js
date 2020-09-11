@@ -141,6 +141,35 @@ const deleteFromCollection = (
     )
 )
 
+
+////////////
+////////////
+
+
+const countInCollection = (
+    database, collectionName, query
+) => Promise(
+    (resolve, reject) => (
+        database
+        .collection(collectionName)
+        .count(
+            query,
+            (err, res) => {
+                if (err) {
+                    reject(err.message)
+                } else {
+                    resolve(res)
+                }
+            }
+        )
+    )
+)
+
+
+////////////
+////////////
+
+
 module.exports = {
     getMongoCollections,
     //
@@ -150,5 +179,7 @@ module.exports = {
     insertIntoCollection,
     findInCollection,
     updateInCollection,
-    deleteFromCollection
+    deleteFromCollection,
+    //
+    countInCollection
 }

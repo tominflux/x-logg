@@ -6,7 +6,8 @@ const {
     insertIntoCollection,
     findInCollection,
     updateInCollection,
-    deleteFromCollection
+    deleteFromCollection,
+    countInCollection
 } = require("./operations");
 
 
@@ -18,5 +19,6 @@ module.exports = {
     insertIntoCollection,
     findInCollection,
     updateInCollection,
-    deleteFromCollection
+    deleteFromCollection,
+    countInCollection
 }
