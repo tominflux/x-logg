@@ -23,7 +23,7 @@
   "dependencies": {
     "@x-logg/actionlogg-express-rest": "^0.1.0",
     "@x-logg/actionlogg-mongo": "^0.1.0",
-    "@x-logg/catalogg-express-rest": "^0.1.2",
+    "@x-logg/catalogg-express-rest": "file:catalogg/expressRestApi",
     "@x-logg/catalogg-mongo": "file:catalogg/mongoApi",
     "@x-logg/userlogg-auth": "^0.2.12",
     "@x-logg/userlogg-express-rest": "^0.1.3",
